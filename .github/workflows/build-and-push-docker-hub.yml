@@ -34,7 +34,6 @@ jobs:
           push: true
           tags: thuanhust/cicd2024:staging
 
-
   pull-and-up:
     name: Pull new image and re run with the new version
     runs-on: ubuntu-latest
